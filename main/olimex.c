@@ -17,12 +17,8 @@
 #include "sdkconfig.h"
 
 #include "ethernet_init.h"
-#include "mqtt_client.h"
 
-static const char *HOSTNAME = "bin1b";
-static const char *TAG = "bin_module";
-
-static esp_mqtt_client_handle_t Mqtt_Client;
+static const char *TAG = "olimex-poe";
 
 /** Event handler for Ethernet events */
 static void eth_event_handler(void *arg, esp_event_base_t event_base,
