@@ -1,0 +1,13 @@
+#+title: Olimex POE (ISO)
+
+* In order to get the ethernet to work, some configuring must be done via menuconfig. These may be set right by default, I don't know.
+
+- example ethernet configuration : Internal EMAC
+- example ethernet configuration / SMI MDC GPIO number : 23
+- example ethernet configuration / SMI MDIO GPIO number : 18
+- example ethernet configuration / PHY Reset GPIO number : -1
+- example ethernet configuration / PHY Address : 0
+
+- component config / ethernet / Support ESP32 internal EMAC controller / RMII clock mode (Output RMII clock from internal) : Output RMII clock from internal
+
+- output RMII clock GPIO number: 17

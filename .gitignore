@@ -1,0 +1,8 @@
+.idea
+*.log
+.cache/
+tmp/
+build/
+managed_components/
+sdkconfig.old
+dependencies.lock
